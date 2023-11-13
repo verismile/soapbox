@@ -1,0 +1,25 @@
+export { AccountRecord, FieldRecord, normalizeAccount } from './account';
+export { AdminAccountRecord, normalizeAdminAccount } from './admin-account';
+export { AdminReportRecord, normalizeAdminReport } from './admin-report';
+export { AnnouncementRecord, normalizeAnnouncement } from './announcement';
+export { AnnouncementReactionRecord, normalizeAnnouncementReaction } from './announcement-reaction';
+export { AttachmentRecord, normalizeAttachment } from './attachment';
+export { ChatRecord, normalizeChat } from './chat';
+export { ChatMessageRecord, normalizeChatMessage } from './chat-message';
+export { EmojiRecord, normalizeEmoji } from './emoji';
+export { FilterRecord, normalizeFilter } from './filter';
+export { FilterKeywordRecord, normalizeFilterKeyword } from './filter-keyword';
+export { FilterStatusRecord, normalizeFilterStatus } from './filter-status';
+export { normalizeGroup } from './group';
+export { GroupRelationshipRecord, normalizeGroupRelationship } from './group-relationship';
+export { HistoryRecord, normalizeHistory } from './history';
+export { InstanceRecord, normalizeInstance } from './instance';
+export { ListRecord, normalizeList } from './list';
+export { LocationRecord, normalizeLocation } from './location';
+export { MentionRecord, normalizeMention } from './mention';
+export { NotificationRecord, normalizeNotification } from './notification';
+export { StatusRecord, normalizeStatus } from './status';
+export { StatusEditRecord, normalizeStatusEdit } from './status-edit';
+export { TagRecord, normalizeTag } from './tag';
+
+export { SoapboxConfigRecord, normalizeSoapboxConfig } from './soapbox/soapbox-config';

@@ -1,0 +1,13 @@
+body.rtl {
+  direction: rtl;
+
+  .status {
+    padding-left: 10px;
+    padding-right: 68px;
+  }
+
+  .table th,
+  .table td {
+    text-align: right;
+  }
+}

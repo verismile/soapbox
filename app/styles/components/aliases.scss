@@ -1,0 +1,14 @@
+.aliases {
+  &__accounts {
+    overflow-y: auto;
+
+    &.empty-column-indicator {
+      min-height: unset;
+      overflow-y: unset;
+    }
+  }
+}
+
+.aliases-settings-panel {
+  flex: 1;
+}
